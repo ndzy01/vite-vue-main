@@ -1,9 +1,9 @@
 {
-  "name": "vite-vue-typescript-starter",
-  "version": "0.0.0",
+  "name": "main",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
+    "lint": "prettier --w . --config .prettierrc",
     "serve": "vite preview"
   },
   "dependencies": {
@@ -14,8 +14,9 @@
     "@vitejs/plugin-vue": "^1.6.0",
     "@vitejs/plugin-vue-jsx": "^1.1.7",
     "@vue/compiler-sfc": "^3.0.5",
+    "prettier": "^2.4.1",
     "typescript": "^4.3.2",
     "vite": "^2.5.1",
-    "vue-tsc": "^0.2.2"
+    "vue-tsc": "^0.28.10"
   }
 }
